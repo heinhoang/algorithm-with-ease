@@ -1,6 +1,6 @@
 ### The shortest path problem
 Finding a path between 2 vertices in a graph such that the total sum of the edges weights is minimum.
-![The shortest path problem](./imgs/shortest-path-problem.svg =480)
+![The shortest path problem](./imgs/shortest-path-problem.svg =480x)
 **How to find path from node 0 to node z with minimum cost?**
 
 **Note**

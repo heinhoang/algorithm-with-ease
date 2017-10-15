@@ -1,5 +1,5 @@
 ## Idea To Solve The Problem:
-![The shortest path problem](./imgs/shortest-path-problem.svg =480)
+![The shortest path problem](./imgs/shortest-path-problem.svg =480x)
 **How to find path from node 0 to node z with minimum cost?**
 First, we go throgh the path a: 0 -> 1 -> ... -> n -> z with total cost: 4 + 120 + 12 = 136
 Then, we go throgh the path b: 0 -> 2 -> ... -> m -> z with total cost: 5 + 126 - 8 = 123
@@ -13,4 +13,4 @@ Set the selected adjacent node to be the previous hop node.
 The shortest path can be found after repeating the process for N-1 times (N is the number of nodes in the network) .
 --------
 **Demo**
-[bellman demo](./imgs/bellman.jpg)
+![bellman demo](./imgs/bellman.jpg)
