@@ -6,7 +6,7 @@
 ![find operator](./imgs/find.jpg)
 
 **Implement**
-```
+```python
 # Find root parent (represent for a subset) of node i in array parent
 def find_parent(self, parent,i):
 	if parent[i] == -1:
@@ -18,8 +18,9 @@ def find_parent(self, parent,i):
 
 #### 2) union() – Combine or merge two sets into a single set.
 ![uniset](./imgs/uniset.jpg)
+
 **Implement**
-```
+```python
 # A utility function to do union of two subsets
 def union(self, parent, x, y):
 	# find root parent of node x
